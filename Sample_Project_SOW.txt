@@ -1,0 +1,43 @@
+STATEMENT OF WORK (SOW)
+=========================
+
+PROJECT NAME: SOWPilot Core Platform Implementation
+CLIENT: Apex Enterprise Corp
+ESTIMATED DURATION: 16 Weeks (4 Months)
+TARGET BUDGET: $240,000
+
+1. PROJECT SUMMARY & OBJECTIVES
+--------------------------------
+Apex Enterprise Corp requires a robust project planning platform using advanced AI agents (SOWPilot AI). 
+The goal is to automatically ingest project requirements from email attachments, model deliverables, 
+timeline milestones, resource requirements, budgets, and delivery risks, presenting them in a 
+sleek unified executive report.
+
+2. PROPOSED TECH STACK
+----------------------
+- Frontend: React 18, TypeScript, Vite, Tailwind CSS v3, Recharts, Framer Motion, Axios
+- Backend: Python 3.11, FastAPI, Uvicorn, LangGraph, Pydantic
+- AI Orchestration: LangGraph Parallel DAG + Google Gemini 2.5 Flash LLM
+- Database: Local JSON file persistence storage
+
+3. CORE DELIVERABLES
+--------------------
+- Interactive SaaS Dashboard displaying processed projects, email hooks count, and aggregated costs.
+- AI Processing Panel featuring live node graph animations of executing agents.
+- Real-time Server-Sent Events (SSE) streaming progress state from LangGraph to the UI.
+- Detailed Project Report containing cost allocation charts, weekly delivery timelines, and risk assessments.
+- Unified launch scripts (run_backend.bat, run_frontend.bat).
+
+4. SYSTEM CONSTRAINTS
+---------------------
+- AWS Fargate container hosting inside a private VPC.
+- Strict SOC 2 security compliance configuration.
+- End-to-end execution must trigger automatically after Gmail API returns SOW attachments.
+
+5. MILESTONE SCHEDULE
+----------------------
+- Week 2: Design approval and system architecture sign-off.
+- Week 6: FastAPI routing and LangGraph orchestrator core development complete.
+- Week 10: Complete React SPA dashboard coupled with live SSE streaming states.
+- Week 14: Automated staging deployments and QA verification.
+- Week 16: Production deployment, documentation handoff, and system launch.

@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+google-generativeai
+langgraph
+pypdf
+python-multipart
+groq
+python-docx
