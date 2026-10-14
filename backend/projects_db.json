@@ -5,7 +5,7 @@
         "project_name": "Digital Banking Platform",
         "client": "ABC Bank",
         "duration": "8 Months",
-        "budget": "$500,000"
+        "budget": "$205,920.0"
       },
       "executive_summary": "Digital Banking Platform project summary",
       "technology_summary": {
@@ -24,9 +24,11 @@
           "AI Processing Panel featuring live node graph animations of executing agents.",
           "Real-time Server-Sent Events (SSE) streaming progress state from LangGraph to the UI.",
           "Detailed Project Report containing cost allocation charts, weekly delivery timelines, and risk assessments.",
-          "Unified launch scripts (run_backend.bat, run_frontend.bat)."
+          "Unified launch scripts (run_backend.bat, run_frontend.bat)"
         ],
-        "recommendation": "The selected tech stack is suitable for the project requirements. However, it is recommended to consider using a more robust authentication and authorization mechanism to ensure PCI-DSS compliance."
+        "recommendation": "Implement robust caching mechanisms and rate limit retries to mitigate Gemini API rate limiting risks.",
+        "constraints": [],
+        "dependencies": []
       },
       "resource_plan": {
         "team_summary": "The recommended team consists of 5 members with diverse skills and expertise.",
@@ -419,15 +421,13 @@
         "estimated_completion": "32 Weeks (8 Months)"
       },
       "budget": {
-        "breakdown": {
-          "development_cost": 120000,
-          "cloud_cost": 12000,
-          "infrastructure_cost": 8000,
-          "testing_cost": 15000,
-          "support_cost": 10000,
-          "buffer_cost": 20000
-        },
-        "total_cost": 215000
+        "development_cost": 103200.0,
+        "cloud_cost": 32000.0,
+        "infrastructure_cost": 19200.0,
+        "testing_cost": 32000.0,
+        "support_cost": 25600.0,
+        "buffer_cost": 10320.0,
+        "total_cost": 205920.0
       },
       "risks": [
         {
@@ -468,11 +468,12 @@
         }
       ],
       "recommendations": [
-        "Use a more robust authentication and authorization mechanism to ensure PCI-DSS compliance.",
-        "Implement local response caching and rate limit retries in the agents.py SDK API caller to mitigate Gemini API rate limiting risk."
+        "Establish core React, TypeScript architectural scaffolding in Week 1 to validate event streaming.",
+        "Request AWS VPC access keys and credential profiles during kickoff to prevent deployment blocks.",
+        "Implement local caching and rate-limiting rules for API integrations to maintain performance."
       ],
-      "overall_readiness_score": 85,
-      "processed_at": "Just now",
+      "overall_readiness_score": 80,
+      "processed_at": "Jul 25, 2026 06:23 PM",
       "email_metadata": {
         "sender": "Sejal Kumari <sejalsavran2004@gmail.com>",
         "subject": "SOW 1 - Digital Banking Platform for ABC Bank STATEMENT OF WORK (SOW)",
@@ -484,7 +485,7 @@
         "project_name": "AI Development Project",
         "client": "mehak",
         "duration": "20 Weeks (5 Months)",
-        "budget": "₹ 187,000"
+        "budget": "$15,582,000.0"
       },
       "executive_summary": "AI Development Project: Consolidated High-Level Project Summary",
       "technology_summary": {
@@ -499,7 +500,10 @@
           "Authentication APIs",
           "File upload/storage integration"
         ],
-        "recommendation": "Based on the project requirements, it is recommended to use a combination of AI and LLM technologies to develop the AI-powered application. Additionally, REST APIs, authentication, and database integration should be used to ensure scalability and security."
+        "deliverables": [],
+        "recommendation": "Establish clear communication channels with third-party API providers, and conduct regular checks to ensure that the APIs are stable and reliable.",
+        "constraints": [],
+        "dependencies": []
       },
       "resource_plan": {
         "team_summary": "The recommended team consists of a Project Manager, Backend Developer, Frontend Developer, AI/ML Engineer, DevOps Engineer, Database Administrator, Quality Assurance Engineer, and Technical Writer.",
@@ -881,15 +885,13 @@
         "estimated_completion": "20 Weeks (5 Months)"
       },
       "budget": {
-        "breakdown": {
-          "development_cost": 120000,
-          "cloud_cost": 12000,
-          "infrastructure_cost": 0,
-          "testing_cost": 8000,
-          "support_cost": 10000,
-          "buffer_cost": 15000
-        },
-        "total_cost": 187000
+        "development_cost": 1050000.0,
+        "cloud_cost": 20000.0,
+        "infrastructure_cost": 12000.0,
+        "testing_cost": 20000.0,
+        "support_cost": 16000.0,
+        "buffer_cost": 105000.0,
+        "total_cost": 15582000.0
       },
       "risks": [
         {
@@ -948,360 +950,25 @@
         }
       ],
       "recommendations": [
-        "Use a combination of AI and LLM technologies to develop the AI-powered application.",
-        "Establish clear communication channels with the client and third-party API providers.",
-        "Conduct regular code reviews and audits to ensure that the code is maintainable and scalable, and that the project complies with data protection regulations."
+        "Establish core AI, LLM architectural scaffolding in Week 1 to validate event streaming.",
+        "Request AWS VPC access keys and credential profiles during kickoff to prevent deployment blocks.",
+        "Implement local caching and rate-limiting rules for API integrations to maintain performance."
       ],
       "overall_readiness_score": 80,
-      "processed_at": "Just now",
+      "processed_at": "Jul 25, 2026 06:58 PM",
       "email_metadata": {
         "sender": "Sejal Kumari <sejal.kumari@dataalchemy.ai>",
         "subject": "Statement of Work (SOW) – AI Development Project",
         "attachment_name": "Email Body text"
-      }
-    },
-    {
-      "project_overview": {
-        "project_name": "Design, Develop, Test, and Deploy a Robust and Scalable Solution",
-        "client": "Client Name (Not Specified)",
-        "duration": "16 Weeks",
-        "budget": "₹ 215,000"
       },
-      "executive_summary": "Design, Develop, Test, and Deploy a Robust and Scalable Solution",
-      "technology_summary": {
-        "stack": [
-          "API Development",
-          "Backend Development",
-          "Frontend Development",
-          "AI Module",
-          "Third-Party Integrations"
-        ],
-        "deliverables": [
-          "Complete source code",
-          "Backend APIs",
-          "Frontend application",
-          "Database implementation",
-          "AI workflow integration",
-          "Third-party integrations",
-          "Technical Documentation",
-          "API Documentation",
-          "Deployment Guide",
-          "User Manual",
-          "Installation Guide"
-        ],
-        "recommendation": "The recommended technology stack includes API Development, Backend Development, Frontend Development, AI Module, and Third-Party Integrations. The deliverables include complete source code, backend APIs, frontend application, database implementation, AI workflow integration, third-party integrations, technical documentation, API documentation, deployment guide, user manual, and installation guide."
-      },
-      "resource_plan": {
-        "team_summary": "The recommended team includes a Project Manager, Backend Developer, Frontend Developer, API Developer, AI/ML Engineer, Database Administrator, DevOps Engineer, Quality Assurance Engineer, and Technical Writer.",
-        "recommended_team": [
-          {
-            "role": "Project Manager",
-            "count": 1,
-            "key_responsibility": "Oversee project timeline, budget, and resources"
-          },
-          {
-            "role": "Backend Developer",
-            "count": 2,
-            "key_responsibility": "Design and implement backend APIs and database integration"
-          },
-          {
-            "role": "Frontend Developer",
-            "count": 2,
-            "key_responsibility": "Design and implement frontend application"
-          },
-          {
-            "role": "API Developer",
-            "count": 1,
-            "key_responsibility": "Design and implement APIs for third-party integrations"
-          },
-          {
-            "role": "AI/ML Engineer",
-            "count": 1,
-            "key_responsibility": "Design and implement AI workflow integration"
-          },
-          {
-            "role": "Database Administrator",
-            "count": 1,
-            "key_responsibility": "Design and implement database schema"
-          },
-          {
-            "role": "DevOps Engineer",
-            "count": 1,
-            "key_responsibility": "Ensure smooth deployment and infrastructure management"
-          },
-          {
-            "role": "Quality Assurance Engineer",
-            "count": 1,
-            "key_responsibility": "Perform testing and quality assurance"
-          },
-          {
-            "role": "Technical Writer",
-            "count": 1,
-            "key_responsibility": "Create technical documentation"
-          }
-        ],
-        "total_resources": 9
-      },
-      "timeline": {
-        "phases": [
-          {
-            "phase_name": "Discovery & Design",
-            "start_week": 1,
-            "end_week": 3,
-            "description": "Gather API specifications, design graph schema, write UI wireframes"
-          },
-          {
-            "phase_name": "Core Development",
-            "start_week": 4,
-            "end_week": 11,
-            "description": "Implement FastAPI, code the AI orchestrator, create React pages"
-          },
-          {
-            "phase_name": "Testing & Integration",
-            "start_week": 12,
-            "end_week": 14,
-            "description": "Run end-to-end integration tests, fix bugs, optimize performance"
-          },
-          {
-            "phase_name": "Deployment & Transition",
-            "start_week": 15,
-            "end_week": 16,
-            "description": "Deploy to staging/production, document code, train stakeholders"
-          }
-        ],
-        "sprint_planning": [
-          {
-            "sprint_number": 1,
-            "goal": "Setup structures and design API",
-            "duration_weeks": 2,
-            "tasks": [
-              "Initialize workspace structures",
-              "Define state interfaces",
-              "Configure Gemini mock/real calls"
-            ]
-          },
-          {
-            "sprint_number": 2,
-            "goal": "Build requirement parsing graph",
-            "duration_weeks": 2,
-            "tasks": [
-              "Implement PyPDF parsing module",
-              "Write extract agent logic",
-              "Setup SSE stream route"
-            ]
-          },
-          {
-            "sprint_number": 3,
-            "goal": "Construct parallel execution nodes",
-            "duration_weeks": 2,
-            "tasks": [
-              "Integrate parallel node runners in LangGraph",
-              "Verify state gathering logic"
-            ]
-          },
-          {
-            "sprint_number": 4,
-            "goal": "Assemble React UI shell and views",
-            "duration_weeks": 2,
-            "tasks": [
-              "Setup Vite tailwind configurations",
-              "Build custom navigation sidebar",
-              "Implement dashboard statistics widget"
-            ]
-          },
-          {
-            "sprint_number": 5,
-            "goal": "Connect SSE streams and charts",
-            "duration_weeks": 2,
-            "tasks": [
-              "Add AIProcessingPanel state animation hooks",
-              "Integrate Recharts cost visualizations"
-            ]
-          },
-          {
-            "sprint_number": 6,
-            "goal": "Hardening and Final Deployment",
-            "duration_weeks": 2,
-            "tasks": [
-              "Perform security VPC review",
-              "Final documentation updates",
-              "Trigger production launch"
-            ]
-          }
-        ],
-        "week_wise_planning": [
-          {
-            "week": "Week 1",
-            "activities": [
-              "Project kickoff meeting",
-              "Initial database schema modeling",
-              "Review SOW PDFs"
-            ],
-            "deliverables": [
-              "Kickoff presentation slide-deck",
-              "Schema diagrams"
-            ]
-          },
-          {
-            "week": "Week 2",
-            "activities": [
-              "Configure environment variables",
-              "Define LangGraph state nodes",
-              "Confirm system design"
-            ],
-            "deliverables": [
-              "Signed architecture spec"
-            ]
-          },
-          {
-            "week": "Week 3",
-            "activities": [
-              "Code backend mockup and schemas",
-              "Draft Frontend layout wireframes"
-            ],
-            "deliverables": [
-              "UI mockups design"
-            ]
-          },
-          {
-            "week": "Week 4",
-            "activities": [
-              "Write Requirement Extraction Agent prompts",
-              "Integrate PyPDF text parsing"
-            ],
-            "deliverables": [
-              "Working PDF parser CLI"
-            ]
-          },
-          {
-            "week": "Week 5",
-            "activities": [
-              "Code Resource Allocation Agent prompts",
-              "Verify skill matrix schema output"
-            ],
-            "deliverables": [
-              "Resource API response"
-            ]
-          },
-          {
-            "week": "Week 6",
-            "activities": [
-              "Develop Cost Estimation Agent prompts",
-              "Code Risk Analysis Agent prompts"
-            ],
-            "deliverables": [
-              "Cost and Risk API responses"
-            ]
-          },
-          {
-            "week": "Week 7",
-            "activities": [
-              "Write Executive Report synthesis logic",
-              "Construct orchestrator DAG"
-            ],
-            "deliverables": [
-              "Draft LangGraph binary"
-            ]
-          },
-          {
-            "week": "Week 8",
-            "activities": [
-              "Configure Server-Sent Events (SSE) stream endpoints",
-              "Create React dashboard base"
-            ],
-            "deliverables": [
-              "API SSE endpoint"
-            ]
-          },
-          {
-            "week": "Week 9",
-            "activities": [
-              "Build React Sidebar & routing structures",
-              "Integrate state contexts"
-            ],
-            "deliverables": [
-              "Functional UI navigation"
-            ]
-          },
-          {
-            "week": "Week 10",
-            "activities": [
-              "Implement AIProcessingPanel nodes animation",
-              "Format status triggers"
-            ],
-            "deliverables": [
-              "Live animation flow"
-            ]
-          },
-          {
-            "week": "Week 11",
-            "activities": [
-              "Connect Recharts charts in ProjectDetails view",
-              "Map data bindings"
-            ],
-            "deliverables": [
-              "Operational visual charts"
-            ]
-          },
-          {
-            "week": "Week 12",
-            "activities": [
-              "Run complete system local dry-runs",
-              "Fix edge UI overflow errors"
-            ],
-            "deliverables": [
-              "Stability validation report"
-            ]
-          },
-          {
-            "week": "Week 13",
-            "activities": [
-              "Run API unit tests",
-              "Test Gemini extraction accuracy rates"
-            ],
-            "deliverables": [
-              "Lighthouse & test output logs"
-            ]
-          },
-          {
-            "week": "Week 14",
-            "activities": [
-              "VPC networking configuration",
-              "Audit container deployment logs"
-            ],
-            "deliverables": [
-              "VPC staging deployment"
-            ]
-          },
-          {
-            "week": "Week 15",
-            "activities": [
-              "Collect final user feedback",
-              "Draft administrative hand-off guides"
-            ],
-            "deliverables": [
-              "User manual documentation"
-            ]
-          }
-        ]
-      },
-      "budget": {},
-      "risks": [],
-      "recommendations": [],
-      "overall_readiness_score": 0,
-      "processed_at": "Just now",
-      "email_metadata": {
-        "sender": "Sejal Kumari <sejal.kumari@dataalchemy.ai>",
-        "subject": "Statement of Work (SOW) Submission for Project Execution",
-        "attachment_name": "Email Body text"
-      }
+      "budget_approved": true
     },
     {
       "project_overview": {
         "project_name": "Custom Solution Development",
         "client": "Client Name (Not Specified)",
         "duration": "18 Weeks (4.5 Months)",
-        "budget": "₹187,000"
+        "budget": "$669,300.0"
       },
       "executive_summary": "Custom Solution Development project aims to design, develop, test, and deploy a robust and scalable solution that fulfills the agreed business requirements.",
       "technology_summary": {
@@ -1620,19 +1287,86 @@
         "estimated_completion": "18 Weeks (4.5 Months)"
       },
       "budget": {
-        "breakdown": {
-          "development_cost": 120000,
-          "cloud_cost": 12000,
-          "infrastructure_cost": 8000,
-          "testing_cost": 15000,
-          "support_cost": 10000,
-          "buffer_cost": 20000
-        }
+        "development_cost": 441000.0,
+        "cloud_cost": 18000.0,
+        "infrastructure_cost": 10800.0,
+        "testing_cost": 18000.0,
+        "support_cost": 14400.0,
+        "buffer_cost": 44100.0,
+        "total_cost": 669300.0
       },
-      "risks": [],
-      "recommendations": [],
-      "overall_readiness_score": 0,
-      "processed_at": "Just now",
+      "risks": [
+        {
+          "category": "Timeline Risk",
+          "risk_name": "Insufficient Development Time for AI Module Integration",
+          "severity": "High",
+          "probability": "Medium",
+          "mitigation": "Prioritize AI module development tasks and allocate additional resources if necessary to meet the project deadline."
+        },
+        {
+          "category": "Hiring Risk",
+          "risk_name": "Difficulty in Finding Skilled Developers for AI and Backend Development",
+          "severity": "High",
+          "probability": "High",
+          "mitigation": "Establish relationships with local universities and job boards to attract top talent, and consider offering competitive salaries and benefits to retain key team members."
+        },
+        {
+          "category": "Technology Risk",
+          "risk_name": "API Development Complexity",
+          "severity": "Medium",
+          "probability": "Medium",
+          "mitigation": "Use established API development frameworks and tools to simplify the development process and reduce the risk of errors."
+        },
+        {
+          "category": "Technology Risk",
+          "risk_name": "Third-Party Integration Risks",
+          "severity": "Medium",
+          "probability": "Medium",
+          "mitigation": "Establish clear communication channels with third-party vendors, and conduct thorough testing of integrations to ensure seamless functionality."
+        },
+        {
+          "category": "Budget Risk",
+          "risk_name": "Overruns Due to Unforeseen Development Challenges",
+          "severity": "High",
+          "probability": "Medium",
+          "mitigation": "Establish a contingency fund to cover unexpected expenses, and regularly review project progress to identify potential issues before they become costly."
+        },
+        {
+          "category": "Compliance Risk",
+          "risk_name": "Non-Compliance with Data Protection Regulations",
+          "severity": "High",
+          "probability": "Low",
+          "mitigation": "Conduct thorough risk assessments to identify potential compliance issues, and implement robust data protection measures to ensure adherence to relevant regulations."
+        },
+        {
+          "category": "Third Party Dependency Risk",
+          "risk_name": "Dependence on Third-Party Vendors for Critical Components",
+          "severity": "Medium",
+          "probability": "Medium",
+          "mitigation": "Develop contingency plans to mitigate the impact of third-party vendor failures, and consider developing in-house alternatives to critical components."
+        },
+        {
+          "category": "Timeline Risk",
+          "risk_name": "Delays in Database Implementation",
+          "severity": "Medium",
+          "probability": "Medium",
+          "mitigation": "Establish clear database design and implementation plans, and allocate sufficient resources to ensure timely completion of database development tasks."
+        },
+        {
+          "category": "Timeline Risk",
+          "risk_name": "Delays in Final Testing and Go-Live Support",
+          "severity": "Medium",
+          "probability": "Medium",
+          "mitigation": "Establish a comprehensive testing plan, and allocate sufficient resources to ensure timely completion of final testing and go-live support tasks."
+        }
+      ],
+      "recommendations": [
+        "Establish LangGraph backend scaffolding in Week 1 to validate event streaming.",
+        "Request AWS VPC access keys from Apex Enterprise IT during kickoff to prevent Week 2 deployment blocks.",
+        "Implement robust caching for Gemini 2.5 Flash API calls to keep processing costs low."
+      ],
+      "overall_readiness_score": 82,
+      "processed_at": "Jul 25, 2026 07:33 PM",
       "email_metadata": {
         "sender": "Sejal Kumari <sejal.kumari@dataalchemy.ai>",
         "subject": "Statement of Work (SOW) Submission for Project Execution",
@@ -1644,7 +1378,7 @@
         "project_name": "Design, Develop, Test, and Deploy a Robust and Scalable Solution",
         "client": "Client Name (Not Specified)",
         "duration": "X Weeks (Estimated)",
-        "budget": "$215,000"
+        "budget": "$186,800.0"
       },
       "executive_summary": "SOWPilot Core Platform is highly viable for Apex Enterprise Corp. With a structured 16-week timeline, an allocated 5-person technical delivery team, and a total estimated cost of $240,000, the project displays strong organizational alignment. Mitigation plans for LangGraph developer sourcing and VPC credentials need immediate activation.",
       "technology_summary": {
@@ -1672,7 +1406,9 @@
           "Final testing",
           "Go-live support"
         ],
-        "recommendation": "Use Python 3.11 with FastAPI for the backend. Standardize on React 18, Vite, and Tailwind CSS v3 for frontend dashboards. Ensure AWS Elastic Container Service (ECS) and RDS PostgreSQL are deployed within a secure subnet."
+        "recommendation": "Implement robust caching and rate limiting to mitigate Gemini API rate limiting risk.",
+        "constraints": [],
+        "dependencies": []
       },
       "resource_plan": {
         "team_summary": "Establish a balanced engineering crew comprising 1 Lead Frontend, 1 Lead Backend/AI, 1 DevOps, 1 QA Engineer, led by a hybrid Project Manager/Business Analyst.",
@@ -2031,15 +1767,13 @@
         "estimated_completion": "20 Weeks (5 Months)"
       },
       "budget": {
-        "breakdown": {
-          "development_cost": 120000,
-          "cloud_cost": 12000,
-          "infrastructure_cost": 8000,
-          "testing_cost": 15000,
-          "support_cost": 10000,
-          "buffer_cost": 20000
-        },
-        "total_cost": 215000
+        "development_cost": 123000.0,
+        "cloud_cost": 20000.0,
+        "infrastructure_cost": 12000.0,
+        "testing_cost": 20000.0,
+        "support_cost": 16000.0,
+        "buffer_cost": 12300.0,
+        "total_cost": 186800.0
       },
       "risks": [
         {
@@ -2086,24 +1820,1146 @@
         }
       ],
       "recommendations": [
-        "Establish LangGraph backend scaffolding in Week 1 to validate event streaming.",
-        "Request AWS VPC access keys from Apex Enterprise IT during kickoff to prevent Week 2 deployment blocks.",
-        "Implement robust caching for Gemini 2.5 Flash API calls to keep processing costs low."
+        "Establish core API Development, Backend Development architectural scaffolding in Week 1 to validate event streaming.",
+        "Request AWS VPC access keys and credential profiles during kickoff to prevent deployment blocks.",
+        "Implement local caching and rate-limiting rules for API integrations to maintain performance."
       ],
-      "overall_readiness_score": 82,
-      "processed_at": "Just now",
+      "overall_readiness_score": 80,
+      "processed_at": "Jul 25, 2026 08:08 PM",
       "email_metadata": {
         "sender": "Sejal Kumari <sejal.kumari@dataalchemy.ai>",
         "subject": "Statement of Work (SOW) Submission for Project Execution",
         "attachment_name": "Email Body text"
       }
+    },
+    {
+      "project_overview": {
+        "project_name": "SOWPilot Core Platform",
+        "client": "Apex Enterprise Corp",
+        "duration": "16 Weeks",
+        "budget": "$210,800.0"
+      },
+      "executive_summary": "SOWPilot Core Platform project summary",
+      "technology_summary": {
+        "stack": [
+          "React",
+          "FastAPI",
+          "Python",
+          "LangGraph",
+          "PostgreSQL",
+          "Docker",
+          "Tailwind CSS"
+        ],
+        "deliverables": [
+          "Interactive visual dashboard",
+          "LangGraph orchestration backend",
+          "PDF parser & semantic indexing pipeline",
+          "User management & security features",
+          "Production-ready deployment scripts"
+        ],
+        "recommendation": "Implement a robust testing framework to ensure high-quality deliverables and consider using a containerization tool like Docker to simplify deployment.",
+        "constraints": [],
+        "dependencies": []
+      },
+      "resource_plan": {
+        "team_summary": "Recommended team consists of 7 members with expertise in backend development, frontend development, DevOps, security, database administration, and quality assurance.",
+        "recommended_team": [
+          {
+            "role": "Senior Backend Developer",
+            "count": 2,
+            "key_responsibility": "Design and implement LangGraph orchestration backend, PDF parser & semantic indexing pipeline, and user management & security features"
+          },
+          {
+            "role": "Lead Frontend Developer",
+            "count": 1,
+            "key_responsibility": "Design and implement interactive visual dashboard and frontend dashboard & SSE stream integrations"
+          },
+          {
+            "role": "DevOps Engineer",
+            "count": 1,
+            "key_responsibility": "Design and implement production-ready deployment scripts and deploy on AWS inside a private VPC"
+          },
+          {
+            "role": "Security Specialist",
+            "count": 1,
+            "key_responsibility": "Ensure strict SOC 2 compliance throughout the project"
+          },
+          {
+            "role": "Database Administrator",
+            "count": 1,
+            "key_responsibility": "Design and implement PostgreSQL database schema and ensure data integrity"
+          },
+          {
+            "role": "Full Stack Developer",
+            "count": 2,
+            "key_responsibility": "Support backend and frontend development, and assist with deployment and security tasks"
+          },
+          {
+            "role": "Quality Assurance Engineer",
+            "count": 1,
+            "key_responsibility": "Perform thorough testing and ensure high-quality deliverables"
+          }
+        ],
+        "total_resources": 7
+      },
+      "timeline": {
+        "phases": [
+          {
+            "phase_name": "Discovery and Design",
+            "start_week": 1,
+            "end_week": 3,
+            "description": "Define project scope, architecture, and technical requirements"
+          },
+          {
+            "phase_name": "Development",
+            "start_week": 4,
+            "end_week": 15,
+            "description": "Implement project deliverables, backend, frontend, and testing"
+          },
+          {
+            "phase_name": "Testing and Deployment",
+            "start_week": 16,
+            "end_week": 16,
+            "description": "Perform security auditing, beta deployment, and production handover"
+          }
+        ],
+        "sprint_planning": [
+          {
+            "sprint_number": 1,
+            "goal": "Define project scope, architecture, and technical requirements",
+            "duration_weeks": 2,
+            "tasks": [
+              "Define project scope and requirements",
+              "Design system architecture",
+              "Develop technical requirements document"
+            ]
+          },
+          {
+            "sprint_number": 2,
+            "goal": "Implement backend LangGraph workflow",
+            "duration_weeks": 2,
+            "tasks": [
+              "Implement LangGraph workflow backend",
+              "Integrate with PostgreSQL database",
+              "Develop API documentation"
+            ]
+          },
+          {
+            "sprint_number": 3,
+            "goal": "Implement frontend dashboard and SSE stream integrations",
+            "duration_weeks": 2,
+            "tasks": [
+              "Implement frontend dashboard",
+              "Integrate with backend API",
+              "Develop SSE stream integrations"
+            ]
+          },
+          {
+            "sprint_number": 4,
+            "goal": "Implement user management and security features",
+            "duration_weeks": 2,
+            "tasks": [
+              "Implement user management system",
+              "Develop security features",
+              "Integrate with backend API"
+            ]
+          },
+          {
+            "sprint_number": 5,
+            "goal": "Implement PDF parser and semantic indexing pipeline",
+            "duration_weeks": 2,
+            "tasks": [
+              "Implement PDF parser",
+              "Develop semantic indexing pipeline",
+              "Integrate with backend API"
+            ]
+          },
+          {
+            "sprint_number": 6,
+            "goal": "Implement production-ready deployment scripts",
+            "duration_weeks": 2,
+            "tasks": [
+              "Develop deployment scripts",
+              "Integrate with AWS services",
+              "Test deployment scripts"
+            ]
+          },
+          {
+            "sprint_number": 7,
+            "goal": "Perform security auditing and beta deployment",
+            "duration_weeks": 2,
+            "tasks": [
+              "Perform security auditing",
+              "Deploy beta version",
+              "Test beta deployment"
+            ]
+          },
+          {
+            "sprint_number": 8,
+            "goal": "Prepare for production handover and launch",
+            "duration_weeks": 2,
+            "tasks": [
+              "Finalize production-ready deployment scripts",
+              "Prepare for production handover",
+              "Coordinate launch activities"
+            ]
+          }
+        ],
+        "week_wise_planning": [
+          {
+            "week": "Week 1",
+            "activities": [
+              "Define project scope and requirements",
+              "Design system architecture"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 2",
+            "activities": [
+              "Develop technical requirements document",
+              "System Architecture Design milestone"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 3",
+            "activities": [
+              "Implement LangGraph workflow backend",
+              "Integrate with PostgreSQL database"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 4",
+            "activities": [
+              "Implement frontend dashboard",
+              "Integrate with backend API"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 5",
+            "activities": [
+              "Develop SSE stream integrations",
+              "Implement user management system"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 6",
+            "activities": [
+              "Develop security features",
+              "Backend LangGraph Workflow Complete milestone"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 7",
+            "activities": [
+              "Implement PDF parser",
+              "Develop semantic indexing pipeline"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 8",
+            "activities": [
+              "Integrate with backend API",
+              "Implement production-ready deployment scripts"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 9",
+            "activities": [
+              "Develop deployment scripts",
+              "Integrate with AWS services"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 10",
+            "activities": [
+              "Test deployment scripts",
+              "Frontend Dashboard & SSE Stream Integrations milestone"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 11",
+            "activities": [
+              "Perform security auditing",
+              "Deploy beta version"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 12",
+            "activities": [
+              "Test beta deployment",
+              "Prepare for production handover"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 13",
+            "activities": [
+              "Finalize production-ready deployment scripts",
+              "Coordinate launch activities"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 14",
+            "activities": [
+              "Beta Deployment & Security Auditing milestone",
+              "Prepare for production handover"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 15",
+            "activities": [
+              "Finalize production-ready deployment scripts",
+              "Coordinate launch activities"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 16",
+            "activities": [
+              "Production Handover & Launch milestone"
+            ],
+            "deliverables": []
+          }
+        ],
+        "estimated_completion": "16 Weeks"
+      },
+      "budget": {
+        "development_cost": 420000.0,
+        "cloud_cost": 16000.0,
+        "infrastructure_cost": 9600.0,
+        "testing_cost": 16000.0,
+        "support_cost": 12800.0,
+        "buffer_cost": 42000.0,
+        "total_cost": 210800.0
+      },
+      "risks": [
+        {
+          "risk_name": "LangGraph Specialist Availability",
+          "severity": "High",
+          "probability": "Medium",
+          "mitigation": "Initiate developer search immediately or allocate an experienced in-house senior backend engineer for upskilling."
+        }
+      ],
+      "recommendations": [
+        "Establish core React, FastAPI architectural scaffolding in Week 1 to validate event streaming.",
+        "Request AWS VPC access keys and credential profiles during kickoff to prevent deployment blocks.",
+        "Implement local caching and rate-limiting rules for API integrations to maintain performance."
+      ],
+      "overall_readiness_score": 80,
+      "processed_at": "Jul 25, 2026 08:43 PM",
+      "email_metadata": {
+        "sender": "Sejal Kumari <sejalsavran2004@gmail.com>",
+        "subject": "sow for ministry of coal",
+        "attachment_name": "Ministry of Coal.pdf"
+      }
+    },
+    {
+      "project_overview": {
+        "project_name": "Enterprise Vessel Management Solution",
+        "client": "HPCL",
+        "duration": "34 Weeks (10 Phases)",
+        "budget": "$255,490.0"
+      },
+      "executive_summary": "The Enterprise Vessel Management Solution project aims to implement a comprehensive vessel management system for HPCL, covering chartering, voyage execution, demurrage, claims, finance, analytics, and document repository.",
+      "technology_summary": {
+        "stack": [
+          "VMS Platform",
+          "COTS",
+          "AIS-based real-time vessel tracking",
+          "Predictive ETA/ETB",
+          "Route deviation, delay and laycan-miss alerts",
+          "Historical vessel track and movement database",
+          "Fleet monitoring dashboard with role-wise visibility",
+          "Dynamic vessel scheduling",
+          "Vessel-cargo assignment",
+          "Multi-port and multi-cargo scheduling",
+          "Route sequencing and port-call sequencing",
+          "Cost-based optimization",
+          "Constraint-based scheduling",
+          "What-if simulation",
+          "Predictive planning",
+          "Inventory and demand signals",
+          "Product-sharing constraints",
+          "LPG/SOD/crude predictive scheduling",
+          "Supply-risk alerts",
+          "API for scheduling",
+          "Vessel requisition workflow",
+          "Charter enquiry creation and floating",
+          "Bid, offer, counter-offer and negotiation tracking",
+          "Captures CP clauses",
+          "Crude API",
+          "GST Act/Rules/requirements",
+          "Tax invoices",
+          "Payment of taxes",
+          "Returns filing"
+        ],
+        "deliverables": [
+          "Optimization Engine",
+          "Dynamic Scheduling Module",
+          "What-if Simulation Engine",
+          "Decision Support Dashboard",
+          "Constraint Configuration Framework",
+          "Optimization Reports",
+          "Audit and Traceability",
+          "Configured Application Modules",
+          "Custom Development Components",
+          "Requirement Validation Document",
+          "Gap Analysis Report",
+          "Solution Blueprint Document",
+          "To-Be Process Maps",
+          "Functional Design Specifications",
+          "Approved Project Plan",
+          "Governance Structure Document",
+          "Resource Deployment Plan",
+          "Communication and Reporting Plan"
+        ],
+        "recommendation": "Implement a robust integration plan, engage with COTS and VMS Platform vendors, and develop a data quality and availability plan to ensure seamless integration and data accuracy.",
+        "constraints": [],
+        "dependencies": []
+      },
+      "resource_plan": {
+        "team_summary": "The recommended team consists of experienced professionals with expertise in project management, business analysis, solution architecture, and technical skills.",
+        "recommended_team": [
+          {
+            "role": "Project Manager",
+            "count": 1,
+            "key_responsibility": "Oversee the project from initiation to closure, ensuring timely delivery of high-quality results."
+          },
+          {
+            "role": "Business Analyst",
+            "count": 2,
+            "key_responsibility": "Gather and document business requirements, develop business cases, and ensure alignment with project goals."
+          },
+          {
+            "role": "Solution Architect",
+            "count": 1,
+            "key_responsibility": "Design and implement the overall architecture of the solution, ensuring scalability, security, and performance."
+          },
+          {
+            "role": "Technical Lead (VMS Platform)",
+            "count": 1,
+            "key_responsibility": "Lead the technical team, ensure the successful implementation of the VMS platform, and provide technical guidance."
+          },
+          {
+            "role": "Lead Operations Specialist",
+            "count": 1,
+            "key_responsibility": "Provide expertise on chartering, voyage execution, demurrage, claims, finance, analytics, and document repository."
+          },
+          {
+            "role": "Data Analyst",
+            "count": 1,
+            "key_responsibility": "Collect, analyze, and interpret data to support business decisions and project goals."
+          },
+          {
+            "role": "Quality Assurance Engineer",
+            "count": 1,
+            "key_responsibility": "Ensure the quality of the solution, identify defects, and implement fixes."
+          },
+          {
+            "role": "DevOps Engineer",
+            "count": 1,
+            "key_responsibility": "Ensure the smooth operation of the solution, implement automation, and provide support."
+          },
+          {
+            "role": "UX/UI Designer",
+            "count": 1,
+            "key_responsibility": "Design user-centered and intuitive interfaces for the solution."
+          },
+          {
+            "role": "Front-end Developer",
+            "count": 2,
+            "key_responsibility": "Develop the front-end of the solution, ensuring a seamless user experience."
+          },
+          {
+            "role": "Back-end Developer",
+            "count": 2,
+            "key_responsibility": "Develop the back-end of the solution, ensuring scalability and performance."
+          },
+          {
+            "role": "Database Administrator",
+            "count": 1,
+            "key_responsibility": "Design, implement, and maintain the database, ensuring data integrity and security."
+          },
+          {
+            "role": "API Developer",
+            "count": 1,
+            "key_responsibility": "Develop APIs for the solution, ensuring seamless integration with other systems."
+          },
+          {
+            "role": "Integration Specialist",
+            "count": 1,
+            "key_responsibility": "Integrate the solution with other systems, ensuring seamless data exchange."
+          }
+        ],
+        "total_resources": 15
+      },
+      "timeline": {
+        "phases": [
+          {
+            "phase_name": "Discovery & Design",
+            "start_week": 1,
+            "end_week": 3,
+            "description": "Gather API specifications, design graph schema, write UI wireframes"
+          },
+          {
+            "phase_name": "Core Development",
+            "start_week": 4,
+            "end_week": 11,
+            "description": "Implement FastAPI, code the AI orchestrator, create React pages"
+          },
+          {
+            "phase_name": "Testing & Integration",
+            "start_week": 12,
+            "end_week": 14,
+            "description": "Run end-to-end integration tests, fix bugs, optimize performance"
+          },
+          {
+            "phase_name": "Deployment & Transition",
+            "start_week": 15,
+            "end_week": 16,
+            "description": "Deploy to staging/production, document code, train stakeholders"
+          }
+        ],
+        "sprint_planning": [
+          {
+            "sprint_number": 1,
+            "goal": "Setup structures and design API",
+            "duration_weeks": 2,
+            "tasks": [
+              "Initialize workspace structures",
+              "Define state interfaces",
+              "Configure Gemini mock/real calls"
+            ]
+          },
+          {
+            "sprint_number": 2,
+            "goal": "Build requirement parsing graph",
+            "duration_weeks": 2,
+            "tasks": [
+              "Implement PyPDF parsing module",
+              "Write extract agent logic",
+              "Setup SSE stream route"
+            ]
+          },
+          {
+            "sprint_number": 3,
+            "goal": "Construct parallel execution nodes",
+            "duration_weeks": 2,
+            "tasks": [
+              "Integrate parallel node runners in LangGraph",
+              "Verify state gathering logic"
+            ]
+          },
+          {
+            "sprint_number": 4,
+            "goal": "Assemble React UI shell and views",
+            "duration_weeks": 2,
+            "tasks": [
+              "Setup Vite tailwind configurations",
+              "Build custom navigation sidebar",
+              "Implement dashboard statistics widget"
+            ]
+          },
+          {
+            "sprint_number": 5,
+            "goal": "Connect SSE streams and charts",
+            "duration_weeks": 2,
+            "tasks": [
+              "Add AIProcessingPanel state animation hooks",
+              "Integrate Recharts cost visualizations"
+            ]
+          },
+          {
+            "sprint_number": 6,
+            "goal": "Hardening and Final Deployment",
+            "duration_weeks": 2,
+            "tasks": [
+              "Perform security VPC review",
+              "Final documentation updates",
+              "Trigger production launch"
+            ]
+          }
+        ],
+        "week_wise_planning": [
+          {
+            "week": "Week 1",
+            "activities": [
+              "Project kickoff meeting",
+              "Initial database schema modeling",
+              "Review SOW PDFs"
+            ],
+            "deliverables": [
+              "Kickoff presentation slide-deck",
+              "Schema diagrams"
+            ]
+          },
+          {
+            "week": "Week 2",
+            "activities": [
+              "Configure environment variables",
+              "Define LangGraph state nodes",
+              "Confirm system design"
+            ],
+            "deliverables": [
+              "Signed architecture spec"
+            ]
+          },
+          {
+            "week": "Week 3",
+            "activities": [
+              "Code backend mockup and schemas",
+              "Draft Frontend layout wireframes"
+            ],
+            "deliverables": [
+              "UI mockups design"
+            ]
+          },
+          {
+            "week": "Week 4",
+            "activities": [
+              "Write Requirement Extraction Agent prompts",
+              "Integrate PyPDF text parsing"
+            ],
+            "deliverables": [
+              "Working PDF parser CLI"
+            ]
+          },
+          {
+            "week": "Week 5",
+            "activities": [
+              "Code Resource Allocation Agent prompts",
+              "Verify skill matrix schema output"
+            ],
+            "deliverables": [
+              "Resource API response"
+            ]
+          }
+        ]
+      },
+      "budget": {
+        "development_cost": 143500.0,
+        "cloud_cost": 34000.0,
+        "infrastructure_cost": 9840.0,
+        "testing_cost": 34000.0,
+        "support_cost": 27200.0,
+        "buffer_cost": 14350.0,
+        "total_cost": 255490.0
+      },
+      "risks": [
+        {
+          "category": "Timeline Risk",
+          "risk_name": "Insufficient Time for Development and Testing",
+          "severity": "High",
+          "probability": "Medium",
+          "mitigation": "Prioritize development tasks, allocate additional resources, and implement a robust testing plan to ensure timely completion."
+        },
+        {
+          "category": "Technology Risk",
+          "risk_name": "Integration Complexity with COTS and VMS Platform",
+          "severity": "High",
+          "probability": "Medium",
+          "mitigation": "Establish a clear integration plan, conduct thorough testing, and engage with COTS and VMS Platform vendors to ensure seamless integration."
+        },
+        {
+          "category": "Technology Risk",
+          "risk_name": "Data Quality and Availability Issues with AIS-based Real-time Vessel Tracking",
+          "severity": "High",
+          "probability": "Medium",
+          "mitigation": "Develop a data quality and availability plan, engage with AIS-based real-time vessel tracking vendors, and implement data validation and error handling mechanisms."
+        },
+        {
+          "category": "Budget Risk",
+          "risk_name": "Cost Overruns due to Unforeseen Technical Challenges",
+          "severity": "High",
+          "probability": "Low",
+          "mitigation": "Establish a contingency fund, conduct regular cost-benefit analysis, and implement a change management process to address unforeseen technical challenges."
+        },
+        {
+          "category": "Compliance Risk",
+          "risk_name": "Non-Compliance with GST Act/Rules/Requirements",
+          "severity": "High",
+          "probability": "Medium",
+          "mitigation": "Develop a compliance plan, engage with GST experts, and implement a robust tax calculation and invoicing system to ensure compliance."
+        },
+        {
+          "category": "Third Party Dependency Risk",
+          "risk_name": "Dependence on AIS-based Real-time Vessel Tracking and COTS Vendors",
+          "severity": "Medium",
+          "probability": "Medium",
+          "mitigation": "Develop a vendor management plan, engage with vendors, and implement a risk assessment and mitigation plan to address potential vendor-related risks."
+        },
+        {
+          "category": "Hiring Risk",
+          "risk_name": "Insufficient Skilled Resources for Development and Testing",
+          "severity": "High",
+          "probability": "Medium",
+          "mitigation": "Develop a resource plan, engage with recruitment agencies, and implement a training and development program to ensure sufficient skilled resources."
+        },
+        {
+          "category": "Timeline Risk",
+          "risk_name": "Delays in Approval of Project Plan and Governance Structure",
+          "severity": "Medium",
+          "probability": "Low",
+          "mitigation": "Develop a project plan approval process, engage with stakeholders, and implement a governance structure to ensure timely approval and decision-making."
+        }
+      ],
+      "recommendations": [
+        "Establish core VMS Platform, COTS architectural scaffolding in Week 1 to validate event streaming.",
+        "Request AWS VPC access keys and credential profiles during kickoff to prevent deployment blocks.",
+        "Implement local caching and rate-limiting rules for API integrations to maintain performance."
+      ],
+      "overall_readiness_score": 80,
+      "processed_at": "Jul 25, 2026 09:18 PM",
+      "email_metadata": {
+        "sender": "Sejal Kumari <sejalsavran2004@gmail.com>",
+        "subject": "sow for HPCL",
+        "attachment_name": "HPCL.pdf"
+      }
+    },
+    {
+      "project_overview": {
+        "project_name": "AI-Powered Recruitment & Interview Management Platform",
+        "client": "ABC Technologies Pvt. Ltd.",
+        "duration": "24 Weeks",
+        "budget": "$1,939,200.0"
+      },
+      "executive_summary": "AI-Powered Recruitment & Interview Management Platform project summary",
+      "technology_summary": {
+        "stack": [
+          "Agile Scrum methodology",
+          "AI",
+          "Machine Learning",
+          "Cloud infrastructure",
+          "HRMS APIs",
+          "Google Calendar and Microsoft Outlook API",
+          "Daily.co or equivalent video platform",
+          "SMTP/email service credentials",
+          "OpenAI or approved LLM API keys",
+          "Database management"
+        ],
+        "deliverables": [
+          "AI-powered recruitment platform",
+          "Automated candidate registration",
+          "Resume parsing",
+          "AI screening",
+          "Interview scheduling",
+          "Video interviews",
+          "Recruiter dashboard",
+          "Analytics",
+          "Reporting",
+          "Integration with existing HRMS systems"
+        ],
+        "recommendation": "Implement a robust data privacy and security framework to ensure compliance with relevant regulations and standards.",
+        "constraints": [],
+        "dependencies": []
+      },
+      "resource_plan": {
+        "team_summary": "Recommended resource plan for AI-Powered Recruitment & Interview Management Platform project",
+        "recommended_team": [
+          {
+            "role": "Project Manager",
+            "count": 1,
+            "key_responsibility": "Overseeing the project timeline, budget, and resources"
+          },
+          {
+            "role": "Scrum Master",
+            "count": 1,
+            "key_responsibility": "Facilitating Scrum ceremonies and ensuring team adherence to Agile principles"
+          },
+          {
+            "role": "Lead Backend Developer",
+            "count": 1,
+            "key_responsibility": "Leading the backend development team and ensuring timely delivery of the AI Module"
+          },
+          {
+            "role": "Lead Frontend Developer",
+            "count": 1,
+            "key_responsibility": "Leading the frontend development team and ensuring timely delivery of the UI/UX"
+          },
+          {
+            "role": "AI/ML Engineer",
+            "count": 1,
+            "key_responsibility": "Developing the AI Module using OpenAI or approved LLM API keys"
+          },
+          {
+            "role": "DevOps Engineer",
+            "count": 1,
+            "key_responsibility": "Ensuring smooth deployment and configuration of the Daily.co or equivalent video platform"
+          },
+          {
+            "role": "Quality Assurance Engineer",
+            "count": 1,
+            "key_responsibility": "Ensuring the quality and reliability of the platform through thorough testing"
+          },
+          {
+            "role": "UX/UI Designer",
+            "count": 1,
+            "key_responsibility": "Designing the user interface and user experience of the platform"
+          },
+          {
+            "role": "Business Analyst",
+            "count": 1,
+            "key_responsibility": "Gathering requirements and ensuring the platform meets the client's needs"
+          },
+          {
+            "role": "Technical Writer",
+            "count": 1,
+            "key_responsibility": "Documenting the platform's functionality and usage"
+          }
+        ],
+        "total_resources": 10
+      },
+      "timeline": {
+        "phases": [
+          {
+            "phase_name": "Discovery and Design",
+            "start_week": 1,
+            "end_week": 2,
+            "description": "Define project scope, identify requirements, and create a high-level design"
+          },
+          {
+            "phase_name": "Development",
+            "start_week": 3,
+            "end_week": 20,
+            "description": "Implement the AI-powered recruitment platform, including backend, frontend, and AI module development"
+          },
+          {
+            "phase_name": "Testing and Deployment",
+            "start_week": 21,
+            "end_week": 24,
+            "description": "Conduct unit testing, integration testing, UAT, and deployment of the platform"
+          }
+        ],
+        "sprint_planning": [
+          {
+            "sprint_number": 1,
+            "goal": "Define project scope, identify requirements, and create a high-level design",
+            "duration_weeks": 2,
+            "tasks": [
+              "Discovery",
+              "Requirement Gathering",
+              "Architecture"
+            ]
+          },
+          {
+            "sprint_number": 2,
+            "goal": "Design the user interface and user experience for the platform",
+            "duration_weeks": 3,
+            "tasks": [
+              "UI/UX"
+            ]
+          },
+          {
+            "sprint_number": 3,
+            "goal": "Implement the backend of the platform",
+            "duration_weeks": 4,
+            "tasks": [
+              "Backend Development"
+            ]
+          },
+          {
+            "sprint_number": 4,
+            "goal": "Implement the frontend of the platform",
+            "duration_weeks": 4,
+            "tasks": [
+              "Frontend Development"
+            ]
+          },
+          {
+            "sprint_number": 5,
+            "goal": "Implement the AI module for the platform",
+            "duration_weeks": 3,
+            "tasks": [
+              "AI Module Development"
+            ]
+          },
+          {
+            "sprint_number": 6,
+            "goal": "Conduct unit testing and integration testing",
+            "duration_weeks": 4,
+            "tasks": [
+              "Testing"
+            ]
+          },
+          {
+            "sprint_number": 7,
+            "goal": "Conduct User Acceptance Testing",
+            "duration_weeks": 2,
+            "tasks": [
+              "UAT"
+            ]
+          },
+          {
+            "sprint_number": 8,
+            "goal": "Deploy the platform to production",
+            "duration_weeks": 1,
+            "tasks": [
+              "Deployment"
+            ]
+          },
+          {
+            "sprint_number": 9,
+            "goal": "Provide support and maintenance for the platform",
+            "duration_weeks": 2,
+            "tasks": [
+              "Hypercare"
+            ]
+          }
+        ],
+        "week_wise_planning": [
+          {
+            "week": "Week 1",
+            "activities": [
+              "Discovery",
+              "Requirement Gathering",
+              "Architecture"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 2",
+            "activities": [
+              "Discovery",
+              "Requirement Gathering",
+              "Architecture"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 3",
+            "activities": [
+              "UI/UX"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 4",
+            "activities": [
+              "UI/UX"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 5",
+            "activities": [
+              "UI/UX"
+            ],
+            "deliverables": []
+          },
+          {
+            "week": "Week 6",
+            "activities": [
+              "Backend Development"
+            ],
+            "deliverables": [
+              "Backend Development Deliverable 1"
+            ]
+          },
+          {
+            "week": "Week 7",
+            "activities": [
+              "Backend Development"
+            ],
+            "deliverables": [
+              "Backend Development Deliverable 2"
+            ]
+          },
+          {
+            "week": "Week 8",
+            "activities": [
+              "Backend Development"
+            ],
+            "deliverables": [
+              "Backend Development Deliverable 3"
+            ]
+          },
+          {
+            "week": "Week 9",
+            "activities": [
+              "Backend Development"
+            ],
+            "deliverables": [
+              "Backend Development Deliverable 4"
+            ]
+          },
+          {
+            "week": "Week 10",
+            "activities": [
+              "AI Module Development"
+            ],
+            "deliverables": [
+              "AI Module Development Deliverable 1"
+            ]
+          },
+          {
+            "week": "Week 11",
+            "activities": [
+              "AI Module Development"
+            ],
+            "deliverables": [
+              "AI Module Development Deliverable 2"
+            ]
+          },
+          {
+            "week": "Week 12",
+            "activities": [
+              "AI Module Development"
+            ],
+            "deliverables": [
+              "AI Module Development Deliverable 3"
+            ]
+          },
+          {
+            "week": "Week 13",
+            "activities": [
+              "AI Module Development"
+            ],
+            "deliverables": [
+              "AI Module Development Deliverable 4"
+            ]
+          },
+          {
+            "week": "Week 14",
+            "activities": [
+              "Frontend Development"
+            ],
+            "deliverables": [
+              "Frontend Development Deliverable 1"
+            ]
+          },
+          {
+            "week": "Week 15",
+            "activities": [
+              "Frontend Development"
+            ],
+            "deliverables": [
+              "Frontend Development Deliverable 2"
+            ]
+          },
+          {
+            "week": "Week 16",
+            "activities": [
+              "Frontend Development"
+            ],
+            "deliverables": [
+              "Frontend Development Deliverable 3"
+            ]
+          },
+          {
+            "week": "Week 17",
+            "activities": [
+              "Frontend Development"
+            ],
+            "deliverables": [
+              "Frontend Development Deliverable 4"
+            ]
+          }
+        ]
+      },
+      "budget": {
+        "development_cost": 1200000.0,
+        "cloud_cost": 24000.0,
+        "infrastructure_cost": 9600.0,
+        "testing_cost": 24000.0,
+        "support_cost": 19200.0,
+        "buffer_cost": 120000.0,
+        "total_cost": 1939200.0
+      },
+      "risks": [
+        {
+          "category": "Technology Risk",
+          "risk_name": "LLM API Integration Complexity",
+          "severity": "High",
+          "probability": "Medium",
+          "mitigation": "Develop a fallback plan for LLM API integration, and establish a clear understanding of the API's usage limits and costs."
+        },
+        {
+          "category": "Timeline Risk",
+          "risk_name": "Agile Scrum Methodology Adoption",
+          "severity": "Medium",
+          "probability": "High",
+          "mitigation": "Provide comprehensive Agile Scrum training for the development team, and establish clear project milestones and deadlines."
+        },
+        {
+          "category": "Budget Risk",
+          "risk_name": "Cloud Infrastructure Costs",
+          "severity": "High",
+          "probability": "Medium",
+          "mitigation": "Establish a clear understanding of the cloud infrastructure costs, and negotiate a fixed-cost contract with the cloud provider."
+        },
+        {
+          "category": "Third Party Dependency Risk",
+          "risk_name": "HRMS API Integration",
+          "severity": "Medium",
+          "probability": "High",
+          "mitigation": "Establish a clear understanding of the HRMS API's usage limits and costs, and develop a fallback plan for integration."
+        },
+        {
+          "category": "Compliance Risk",
+          "risk_name": "Data Privacy and Security",
+          "severity": "High",
+          "probability": "Medium",
+          "mitigation": "Implement robust data privacy and security measures, and ensure compliance with relevant regulations and standards."
+        },
+        {
+          "category": "Hiring Risk",
+          "risk_name": "Talent Acquisition and Retention",
+          "severity": "Medium",
+          "probability": "High",
+          "mitigation": "Develop a comprehensive talent acquisition and retention strategy, and establish a clear understanding of the project's staffing needs."
+        },
+        {
+          "category": "Timeline Risk",
+          "risk_name": "Scope Creep",
+          "severity": "High",
+          "probability": "Medium",
+          "mitigation": "Establish clear project scope and requirements, and implement a change management process to prevent scope creep."
+        },
+        {
+          "category": "Budget Risk",
+          "risk_name": "Unforeseen Expenses",
+          "severity": "Medium",
+          "probability": "High",
+          "mitigation": "Establish an emergency fund to cover unforeseen expenses, and develop a contingency plan for unexpected costs."
+        }
+      ],
+      "recommendations": [
+        "Establish core Agile Scrum methodology, AI architectural scaffolding in Week 1 to validate event streaming.",
+        "Request AWS VPC access keys and credential profiles during kickoff to prevent deployment blocks.",
+        "Implement local caching and rate-limiting rules for API integrations to maintain performance."
+      ],
+      "overall_readiness_score": 80,
+      "processed_at": "Jul 25, 2026 09:53 PM",
+      "email_metadata": {
+        "sender": "Sejal Kumari <sejal.kumari@dataalchemy.ai>",
+        "subject": "sow- AI-Powered Recruitment & Interview Management Platform",
+        "attachment_name": "SOW- AI-Powered Recruitment & Interview Management Platform.pdf"
+      },
+      "budget_approved": true
     }
   ],
-  "emails_received_count": 5,
+  "emails_received_count": 9,
   "processed_email_ids": [
     "<CAOcC4EG-eFz=dSvvd0dia9xNrGKM39h-K5g=-oSKD1WX4-4Hbw@mail.gmail.com>",
     "<MA0P287MB2072104B2EFE7A395779458BEDF82@MA0P287MB2072.INDP287.PROD.OUTLOOK.COM>",
     "<MA0P287MB207220DF1C20B795690CE3AAEDC72@MA0P287MB2072.INDP287.PROD.OUTLOOK.COM>",
-    "<MA0P287MB2072BF359438CA66544B1744EDC72@MA0P287MB2072.INDP287.PROD.OUTLOOK.COM>"
+    "<MA0P287MB2072BF359438CA66544B1744EDC72@MA0P287MB2072.INDP287.PROD.OUTLOOK.COM>",
+    "<MA0P287MB207291200C387730368A566FEDC22@MA0P287MB2072.INDP287.PROD.OUTLOOK.COM>",
+    "<CAOcC4EGo+d+ayOFtji5rvM0QgBb8UR_SNys2PpGhVt487UdMUg@mail.gmail.com>",
+    "<CAOcC4EGFZ2DTMSoB9yitSSpGVpCAsciCB6cNpza6tTouaDM7Bg@mail.gmail.com>",
+    "<MA0P287MB2072C2329A824E601C77672BEDC02@MA0P287MB2072.INDP287.PROD.OUTLOOK.COM>"
   ]
 }

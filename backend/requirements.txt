@@ -5,6 +5,9 @@ python-dotenv
 google-generativeai
 langgraph
 pypdf
+reportlab
 python-multipart
-groq
+boto3
 python-docx
+chromadb
+

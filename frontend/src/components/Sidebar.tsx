@@ -1,15 +1,16 @@
 import React from 'react';
 import { 
   LayoutDashboard, 
-  FolderGit2, 
-  Cpu, 
-  FileText, 
-  Settings, 
-  Radio, 
+  FolderGit2,
+  Cpu,
+  FileText,
+  Settings,
+  Radio,
   Users,
   Sun,
   Moon,
-  Compass
+  Compass,
+  TrendingUp
 } from 'lucide-react';
 
 interface SidebarProps {
@@ -20,12 +21,13 @@ interface SidebarProps {
   toggleTheme: () => void;
 }
 
-export default function Sidebar({ currentTab, setCurrentTab, backendConnected, theme, toggleTheme }: SidebarProps) {
+export default function Sidebar({ currentTab, setCurrentTab, theme, toggleTheme }: SidebarProps) {
   const navItems = [
     { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
+    { id: 'pipeline', label: 'Pipeline', icon: TrendingUp },
     { id: 'projects', label: 'Projects', icon: FolderGit2 },
     { id: 'processing', label: 'AI Processing', icon: Cpu },
-    { id: 'reports', label: 'Reports', icon: FileText },
+    { id: 'reports', label: 'AI Insights', icon: FileText },
     { id: 'workers', label: 'Workers', icon: Users },
     { id: 'settings', label: 'Settings', icon: Settings },
   ];
@@ -67,19 +69,6 @@ export default function Sidebar({ currentTab, setCurrentTab, backendConnected, t
 
       {/* System Status and Metadata Footer */}
       <div className="p-4 border-t border-slate-800/50 space-y-3">
-        <div className="glass-panel p-3.5 rounded-xl border border-slate-800/40 text-xs">
-          <div className="flex items-center justify-between mb-1.5">
-            <span className="text-slate-400 font-medium">Server API</span>
-            <div className="flex items-center gap-1.5">
-              <span className={`w-2 h-2 rounded-full ${backendConnected ? 'bg-emerald-500 animate-pulse' : 'bg-rose-500'}`}></span>
-              <span className={`font-semibold ${backendConnected ? 'text-emerald-400' : 'text-rose-400'}`}>
-                {backendConnected ? 'Connected' : 'Offline'}
-              </span>
-            </div>
-          </div>
-          <p className="text-[10px] text-slate-500 font-light">Localhost v1.0.0 (FastAPI)</p>
-        </div>
-
         {/* Theme Toggle option */}
         <div className="flex items-center justify-between bg-slate-950/40 p-2.5 rounded-xl border border-slate-800/40 text-xs">
           <span className="text-slate-400 font-medium flex items-center gap-1.5">

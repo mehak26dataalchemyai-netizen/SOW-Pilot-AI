@@ -1,0 +1,75 @@
+{
+  "sow_requirements": [
+    {
+      "id": "Digital Banking Platform",
+      "text": "Project SOW: Digital Banking Platform. Client Partner: ABC Bank. Summary: SOWPilot Core Platform is highly viable for Apex Enterprise Corp. With a structured 16-week timeline, an allocated 5-person technical delivery team, and a total estimated cost of $240,000, the project displays strong organizational alignment. Mitigation plans for LangGraph developer sourcing and VPC credentials need immediate activation.. Competencies and Stack: React, TypeScript, FastAPI, Python, PostgreSQL, AWS, Docker, Kubernetes. Deliverables: Customer Portal; Admin Dashboard; Mobile Banking APIs; CI/CD Pipeline; Cloud Deployment; Documentation. Delivery Risks: Insufficient Time for Requirements Gathering; Difficulty in Finding Skilled Developers; Complexity of Kubernetes and Docker Integration; Cost Overruns Due to Unforeseen Expenses; Non-Compliance with PCI-DSS Regulations; Dependence on AWS Services; Insufficient Time for Testing and Quality Assurance; Exceeding Budget Due to Changes in Requirements.",
+      "metadata": {
+        "project_name": "Digital Banking Platform"
+      }
+    },
+    {
+      "id": "AI-Powered Application Development",
+      "text": "Project SOW: AI-Powered Application Development. Client Partner: Not specified. Summary: This report provides a comprehensive overview of the AI-Powered Application Development project, including project requirements, resource allocation, timeline plan, cost estimation, and risk analysis.. Competencies and Stack: Artificial Intelligence, Machine Learning, Application Development, Scalable Architecture, Secure Development Practices, Cloud Deployment. Deliverables: AI-powered application; Scalable and secure solution; Production-ready application. Delivery Risks: Insufficient Project Planning; Unclear Budget Allocation.",
+      "metadata": {
+        "project_name": "AI-Powered Application Development"
+      }
+    },
+    {
+      "id": "AI-Powered Business Workflow Automation",
+      "text": "Project SOW: AI-Powered Business Workflow Automation. Client Partner: Not specified. Summary: AI-Powered Business Workflow Automation project summary. Competencies and Stack: Artificial Intelligence, Machine Learning, Cloud Computing, Containerization (Docker), Microservices Architecture, API Development, Data Security and Compliance, Scalable and Secure Solution. Deliverables: AI-powered application; Automated business workflow; Scalable and secure solution. Delivery Risks: LangGraph Specialist Availability; VPC Network Access Delays; Gemini API Rate Limiting; Scope Creep on Visual Dashboard; SOC 2 Audit Delays; PDF Formatting Variance.",
+      "metadata": {
+        "project_name": "AI-Powered Business Workflow Automation"
+      }
+    },
+    {
+      "id": "Project Deliverables",
+      "text": "Project SOW: Project Deliverables. Client Partner: Not specified. Summary: SOWPilot Core Platform is highly viable for Apex Enterprise Corp. With a structured 16-week timeline, an allocated 5-person technical delivery team, and a total estimated cost of $240,000, the project displays strong organizational alignment. Mitigation plans for LangGraph developer sourcing and VPC credentials need immediate activation.. Competencies and Stack: Backend, Frontend, AI Components. Deliverables: Backend; Frontend; AI Components; Documentation. Delivery Risks: Unclear Project Duration; Unclear Project Budget; Complexity of AI Components; Integration of Backend, Frontend, and AI Components; Lack of Compliance with Industry Standards; Dependence on External AI Components; Insufficient Resources; Cost Overruns due to Unforeseen Delays; Delays in Deliverables; Lack of Documentation.",
+      "metadata": {
+        "project_name": "Project Deliverables"
+      }
+    },
+    {
+      "id": "SOWPilot Core Platform",
+      "text": "Project SOW: SOWPilot Core Platform. Client Partner: Apex Enterprise Corp. Summary: SOWPilot Core Platform is highly viable for Apex Enterprise Corp. With a structured 16-week timeline, an allocated 5-person technical delivery team, and a total estimated cost of $240,000, the project displays strong organizational alignment. Mitigation plans for LangGraph developer sourcing and VPC credentials need immediate activation.. Competencies and Stack: React, FastAPI, Python, LangGraph, PostgreSQL, Docker, Tailwind CSS. Deliverables: Interactive visual dashboard; LangGraph orchestration backend; PDF parser & semantic indexing pipeline; User management & security features; Production-ready deployment scripts. Delivery Risks: LangGraph Specialist Availability; VPC Network Access Delays; Gemini API Rate Limiting; Scope Creep on Visual Dashboard; SOC 2 Audit Delays; PDF Formatting Variance.",
+      "metadata": {
+        "project_name": "SOWPilot Core Platform"
+      }
+    },
+    {
+      "id": "AI Development Project",
+      "text": "Project SOW: AI Development Project. Client Partner: mehak. Summary: AI Development Project: Consolidated High-Level Project Summary. Competencies and Stack: AI, LLM, REST APIs, Authentication, Database, API Documentation, Gmail Integration, Authentication APIs, File upload/storage integration. Deliverables: . Delivery Risks: Unclear Project Timeline; Unclear Budget; Complexity of AI Orchestration Layer; Dependence on Third-Party APIs; Non-Compliance with Data Protection Regulations; Delays in API Credentials and Access; Insufficient Development Resources; Delays in Feedback and Review; Unclear Exclusions.",
+      "metadata": {
+        "project_name": "AI Development Project"
+      }
+    },
+    {
+      "id": "Custom Solution Development",
+      "text": "Project SOW: Custom Solution Development. Client Partner: Client Name (Not Specified). Summary: Custom Solution Development project aims to design, develop, test, and deploy a robust and scalable solution that fulfills the agreed business requirements.. Competencies and Stack: API development, Backend development, Frontend development, AI module integration, Database implementation, Third-party integrations. Deliverables: Complete source code; Backend APIs; Frontend application; Database implementation; AI workflow integration; Third-party integrations; Technical Documentation; API Documentation; Deployment Guide; User Manual; Installation Guide; Production deployment; Environment configuration; Final testing; Go-live support. Delivery Risks: Insufficient Development Time for AI Module Integration; Difficulty in Finding Skilled Developers for AI and Backend Development; API Development Complexity; Third-Party Integration Risks; Overruns Due to Unforeseen Development Challenges; Non-Compliance with Data Protection Regulations; Dependence on Third-Party Vendors for Critical Components; Delays in Database Implementation; Delays in Final Testing and Go-Live Support.",
+      "metadata": {
+        "project_name": "Custom Solution Development"
+      }
+    },
+    {
+      "id": "Design, Develop, Test, and Deploy a Robust and Scalable Solution",
+      "text": "Project SOW: Design, Develop, Test, and Deploy a Robust and Scalable Solution. Client Partner: Client Name (Not Specified). Summary: SOWPilot Core Platform is highly viable for Apex Enterprise Corp. With a structured 16-week timeline, an allocated 5-person technical delivery team, and a total estimated cost of $240,000, the project displays strong organizational alignment. Mitigation plans for LangGraph developer sourcing and VPC credentials need immediate activation.. Competencies and Stack: API Development, Backend Development, Frontend Development, AI Module, Third-Party Integrations. Deliverables: Complete source code; Backend APIs; Frontend application; Database implementation; AI workflow integration; Third-party integrations; Technical Documentation; API Documentation; Deployment Guide; User Manual; Installation Guide; Production deployment; Environment configuration; Final testing; Go-live support. Delivery Risks: LangGraph Specialist Availability; VPC Network Access Delays; Gemini API Rate Limiting; Scope Creep on Visual Dashboard; SOC 2 Audit Delays; PDF Formatting Variance.",
+      "metadata": {
+        "project_name": "Design, Develop, Test, and Deploy a Robust and Scalable Solution"
+      }
+    },
+    {
+      "id": "Enterprise Vessel Management Solution",
+      "text": "Project SOW: Enterprise Vessel Management Solution. Client Partner: HPCL. Summary: The Enterprise Vessel Management Solution project aims to implement a comprehensive vessel management system for HPCL, covering chartering, voyage execution, demurrage, claims, finance, analytics, and document repository.. Competencies and Stack: VMS Platform, COTS, AIS-based real-time vessel tracking, Predictive ETA/ETB, Route deviation, delay and laycan-miss alerts, Historical vessel track and movement database, Fleet monitoring dashboard with role-wise visibility, Dynamic vessel scheduling, Vessel-cargo assignment, Multi-port and multi-cargo scheduling, Route sequencing and port-call sequencing, Cost-based optimization, Constraint-based scheduling, What-if simulation, Predictive planning, Inventory and demand signals, Product-sharing constraints, LPG/SOD/crude predictive scheduling, Supply-risk alerts, API for scheduling, Vessel requisition workflow, Charter enquiry creation and floating, Bid, offer, counter-offer and negotiation tracking, Captures CP clauses, Crude API, GST Act/Rules/requirements, Tax invoices, Payment of taxes, Returns filing. Deliverables: Optimization Engine; Dynamic Scheduling Module; What-if Simulation Engine; Decision Support Dashboard; Constraint Configuration Framework; Optimization Reports; Audit and Traceability; Configured Application Modules; Custom Development Components; Requirement Validation Document; Gap Analysis Report; Solution Blueprint Document; To-Be Process Maps; Functional Design Specifications; Approved Project Plan; Governance Structure Document; Resource Deployment Plan; Communication and Reporting Plan. Delivery Risks: Insufficient Time for Development and Testing; Integration Complexity with COTS and VMS Platform; Data Quality and Availability Issues with AIS-based Real-time Vessel Tracking; Cost Overruns due to Unforeseen Technical Challenges; Non-Compliance with GST Act/Rules/Requirements; Dependence on AIS-based Real-time Vessel Tracking and COTS Vendors; Insufficient Skilled Resources for Development and Testing; Delays in Approval of Project Plan and Governance Structure.",
+      "metadata": {
+        "project_name": "Enterprise Vessel Management Solution"
+      }
+    },
+    {
+      "id": "AI-Powered Recruitment & Interview Management Platform",
+      "text": "Project SOW: AI-Powered Recruitment & Interview Management Platform. Client Partner: ABC Technologies Pvt. Ltd.. Summary: AI-Powered Recruitment & Interview Management Platform project summary. Competencies and Stack: Agile Scrum methodology, AI, Machine Learning, Cloud infrastructure, HRMS APIs, Google Calendar and Microsoft Outlook API, Daily.co or equivalent video platform, SMTP/email service credentials, OpenAI or approved LLM API keys, Database management. Deliverables: AI-powered recruitment platform; Automated candidate registration; Resume parsing; AI screening; Interview scheduling; Video interviews; Recruiter dashboard; Analytics; Reporting; Integration with existing HRMS systems. Delivery Risks: LLM API Integration Complexity; Agile Scrum Methodology Adoption; Cloud Infrastructure Costs; HRMS API Integration; Data Privacy and Security; Talent Acquisition and Retention; Scope Creep; Unforeseen Expenses.",
+      "metadata": {
+        "project_name": "AI-Powered Recruitment & Interview Management Platform"
+      }
+    }
+  ],
+  "candidate_resumes": []
+}

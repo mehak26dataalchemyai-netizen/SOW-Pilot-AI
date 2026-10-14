@@ -168,21 +168,61 @@ body.light-mode .text-slate-400 {
 body.light-mode .text-slate-500 {
   color: #64748b !important;
 }
-body.light-mode .bg-slate-900,
-body.light-mode .bg-slate-950,
-body.light-mode .bg-slate-900\/60,
-body.light-mode .bg-slate-900\/30,
-body.light-mode .bg-slate-950\/30,
-body.light-mode .bg-slate-950\/50,
-body.light-mode .bg-slate-950\/60,
-body.light-mode .bg-slate-950\/40 {
+/* Substring selectors catch every bg-slate-900/NN and bg-slate-950/NN opacity
+   variant (e.g. /30, /60, /80) in one rule, instead of enumerating each one
+   individually and missing new variants as they're added. */
+body.light-mode [class*="bg-slate-900"],
+body.light-mode [class*="bg-slate-950"] {
   background-color: #f1f5f9 !important;
 }
-body.light-mode .border-slate-800,
-body.light-mode .border-slate-800\/40,
-body.light-mode .border-slate-800\/50,
-body.light-mode .border-slate-800\/60,
-body.light-mode .border-slate-800\/80,
-body.light-mode .border-slate-900 {
+body.light-mode [class*="border-slate-800"],
+body.light-mode [class*="border-slate-900"] {
   border-color: #e2e8f0 !important;
 }
+
+/* Light Mode Highlight Color Overrides for Better Contrast */
+body.light-mode .text-brand-400,
+body.light-mode .text-brand-300,
+body.light-mode .text-brand-500 {
+  color: #0284c7 !important; /* sky-600 */
+}
+/* Brand-colored badge/chip backgrounds (e.g. tech stack tags, "Project Owner" badge)
+   default to a near-black navy tint meant for dark mode; substring match catches every
+   opacity variant (bg-brand-900/30, bg-brand-950/20, etc.) in one rule. */
+body.light-mode [class*="bg-brand-900"],
+body.light-mode [class*="bg-brand-950"] {
+  background-color: #e0effe !important; /* brand-100, a soft light-blue tint */
+}
+body.light-mode .text-emerald-400 {
+  color: #059669 !important; /* emerald-600 */
+}
+body.light-mode .text-amber-400 {
+  color: #d97706 !important; /* amber-600 */
+}
+body.light-mode .text-rose-400 {
+  color: #dc2626 !important; /* rose-600 */
+}
+
+/* The .text-white rule above darkens text for readability on the light page background, which is
+   correct for headings but wrong for buttons/badges/alert-panels that carry their own solid or
+   gradient dark/colored background in both themes — those need to keep white text for contrast.
+   These selectors are more specific than the base rule, so they win without needing source order. */
+body.light-mode button.text-white,
+body.light-mode button .text-white,
+body.light-mode .text-white[class*="bg-gradient-to-"],
+body.light-mode [class*="bg-gradient-to-"] .text-white,
+body.light-mode [class*="bg-rose-950"] .text-white,
+body.light-mode [class*="bg-amber-950"] .text-white,
+body.light-mode [class*="bg-emerald-950"] .text-white {
+  color: #ffffff !important;
+}
+
+/* Recharts Light Mode Adjustments */
+body.light-mode .recharts-cartesian-axis-tick-value {
+  fill: #475569 !important;
+}
+body.light-mode .recharts-cartesian-grid-horizontal line,
+body.light-mode .recharts-cartesian-grid-vertical line {
+  stroke: rgba(15, 23, 42, 0.08) !important;
+}
+

@@ -1,0 +1,24 @@
+simulated fallback used: False
+resource_schedule entries: 10
+ - Engagement Lead / Healthcare Solutions Architect | weeks 1 - 18
+ - Project Manager (Healthcare Delivery Specialist) | weeks 1 - 18
+ - Senior Full-Stack Developer (React/Node.js or Angular/Java) | weeks 3 - 14
+ - Epic EHR & FHIR Integration Specialist | weeks 1 - 18
+ - HIPAA Compliance & Security Engineer | weeks 1 - 14
+ - DevOps / Cloud Infrastructure Engineer (AWS or Azure) | weeks 1 - 18
+ - QA / Test Engineer (Healthcare Domain) | weeks 4 - 14
+ - Healthcare UX/UI Designer | weeks 1 - 10
+ - Database Administrator / Data Architect | weeks 1 - 14
+ - Technical Writer / Documentation Specialist | weeks 2 - 18
+
+new total_cost: 1034550.0
+ - Engagement Lead / Healthcare Solutions Architect | engaged_weeks: 18 | cost: 72000.0
+ - Project Manager (Healthcare Delivery Specialist) | engaged_weeks: 18 | cost: 86400.0
+ - Senior Full-Stack Developer (React/Node.js or Angular/Java) | engaged_weeks: 12 | cost: 96000.0
+ - Epic EHR & FHIR Integration Specialist | engaged_weeks: 18 | cost: 93600.0
+ - HIPAA Compliance & Security Engineer | engaged_weeks: 14 | cost: 72800.0
+ - DevOps / Cloud Infrastructure Engineer (AWS or Azure) | engaged_weeks: 18 | cost: 93600.0
+ - QA / Test Engineer (Healthcare Domain) | engaged_weeks: 11 | cost: 57200.0
+ - Healthcare UX/UI Designer | engaged_weeks: 10 | cost: 34000.0
+ - Database Administrator / Data Architect | engaged_weeks: 14 | cost: 64400.0
+ - Technical Writer / Documentation Specialist | engaged_weeks: 17 | cost: 51000.0
